@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Base from './Base';
+import Header from './Header';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<Base />, div);
+  ReactDOM.render(<Header />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
